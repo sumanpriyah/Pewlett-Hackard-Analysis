@@ -4,7 +4,7 @@
 ## Overview of the analysis:
 In this we will help Bobby to build employee database using sql by applying data modeling, engineering and analysis skills and ERD so that
 Pewlett-Hackard can plan ahead to see who is retiring next year and how many positions need to be filled. This will help Pewlett Hackard to generate 
-list of all employees eligible for retirement package. We will import and export csv dataset into pgAdmin and create new tables by joins.
+list of all employees eligible for retirement package. We have imported and exported csv dataset into pgAdmin and create new tables by joins.
 
 
 ### Deliverables
@@ -19,15 +19,15 @@ list of all employees eligible for retirement package. We will import and export
  
 ## Results:
 ### Retirement Titles 
- Table : retirement_titles
- From this table we are getting the employees titles who were born between 1952 and 1955 and getting retire next year. This will help company in 
-preparing how many titles going to vacant and need to hire next year.  
+Table : retirement_titles
+From this table we are getting the employees titles who were born between 1952 and 1955 and getting retire next year. This will help company in 
+preparing how many titles going to vacant and need to hire next year. HP need to plan for 133776 retirement package for next year.
 
 ![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/retirement_titles.png) 
  
 ### Unique Titles
 Table : unique_titles
- This table will help the company with what all unique titles are available in company that going to vacant next year and need replacements by hiring people on those roles.
+This table will help the company with what all unique titles are available in company that going to vacant next year and need replacements by hiring people on those roles.
  
 ![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/unique_titles.png)
  
@@ -59,3 +59,5 @@ mentor next generation.
 ![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/count_mentorship.png)
 
 ![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/retiring%20titles-count.png)
+
+![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/Manager_title.png)
