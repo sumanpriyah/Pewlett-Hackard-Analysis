@@ -7,32 +7,39 @@ Pewlett-Hackard can plan ahead to see who is retiring next year and how many pos
 list of all employees eligible for retirement package. We will import and export csv dataset into pgAdmin and create new tables by joins.
 
 
- ### Deliverables
+### Deliverables
 1: The Number of Retiring Employees by Title
 
 2: The Employees Eligible for the Mentorship Program
 
 3.: A written report on the employee database analysis (README.md)
  
- ### Software/Tools Used
+### Software/Tools Used
  Visual Studio code, PostgreSQL, pgAdmin4, ERD 
  
- ## Results:
+## Results:
  ### retirement_titles
  From this table we are getting the employees titles who were born between 1952 and 1955 and getting retire next year. This will help company in 
-preparing how many titles going to vacant and need to hire next year.   
+preparing how many titles going to vacant and need to hire next year.  
+
+![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/retirement_titles.png) 
  
- ### unique_titles
- This table will help with what all unique titles are available in company that going to vacant next year. The current employee thet holding the 
- titles are used to get the titles so that it will provide actual number of titles being used right now in the company.
+### unique_titles
+ This table will help the company with what all unique titles are available in company that going to vacant next year and need replacements by hiring people on those roles.
  
- ### retiring_titles
+![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/unique_titles.png)
+ 
+### retiring_titles
  This gives us count of the titles getting retire. This will help company to plan how many titles are required and need to replace next year.
  
- ### mentorship_eligibilty
+![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/retiring_titles.png)
+ 
+### mentorship_eligibilty
  This tables provide the number of employees who are eligible and available to mentor the next generation after people getting retired next year.
  
- ## Summary:
+![](https://github.com/sumanpriyah/Pewlett-Hackard-Analysis/blob/main/Images/mentorship_eligibilty.png)
+ 
+## Summary:
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 Below pic provided the count of roles that will be needed to be filled as the "silver tsunami".
